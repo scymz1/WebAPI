@@ -3,7 +3,7 @@
 ## add customer:
 ### POST localhost:8080/webAPI/customer
 requestBody:
-``json
+```json
 {
     "firstName": "Minghao",
     "lastName": "Zhou"
