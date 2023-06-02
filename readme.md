@@ -1,5 +1,7 @@
-add customer:
-POST localhost:8080/webAPI/customer
+# api endpoint desgin
+
+## add customer:
+### POST localhost:8080/webAPI/customer
 requestBody:
 {
 "firstName": "Minghao",
@@ -7,8 +9,8 @@ requestBody:
 
 }
 
-add transactions:
-POST localhost:8080/webAPI/transaction
+## add transactions:
+### POST localhost:8080/webAPI/transaction
 requestBody:
 {
     "customer": {
@@ -20,12 +22,12 @@ requestBody:
     "amount": 108
 }
 
-get rewards of customer by id:
-GET localhost:8080/webAPI/rewards?id=1
+## get rewards of customer by id:
+### GET localhost:8080/webAPI/rewards?id=1
 requestParam:
     "id": 1
 
-get info of specific user:
-GET localhost:8080/webAPI/customer?id=1
+## get info of specific user:
+### GET localhost:8080/webAPI/customer?id=1
 requestParam:
     "id": 1
