@@ -37,7 +37,37 @@ requestParam:
 
     "id": 1
 
+## delete specific transactions:
+### DELETE localhost:8080/webAPI/transaction
+requestBody:
+```
+{
+    "customer": {
+        "id": 1,
+        "firstName": "Minghao",
+        "lastName": "Zhou"
+    },
+    "date": "2023-07-29",
+    "amount": 108
+}
+```
 
-|Name|Email|Address|
-|----|-----|-------|
-|John|john@example.com|Address1|
+## delete customer:
+### DELETE localhost:8080/webAPI/customer
+requestBody:
+```
+{
+    "firstName": "Minghao",
+    "lastName": "Zhou"
+}
+```
+
+# Example dataset for demonstration
+
+customer table
+
+| id |firstName|lastName|
+|--|-----|-------|
+| 1 |Leo|Zhou|
+| 2 |Stephen|Curry|
+| 3 |Jimmy|McGill|

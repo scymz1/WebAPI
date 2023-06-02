@@ -85,4 +85,16 @@ public class WebAPIServiceImpl implements WebAPIService {
         }
         return customerList.get(0);
     }
+
+    @Override
+    public String deleteTransactions(Transaction transaction) {
+        this.transactionRepo.delete(transaction);
+        return "Success";
+    }
+
+    @Override
+    public String deleteCustomer(Customer customer) {
+        this.customerRepo.delete(customer);
+        return "Success";
+    }
 }

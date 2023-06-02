@@ -13,4 +13,8 @@ public interface WebAPIService {
     UserRewardDTO getCustomerRewards(int customerId);
 
     Customer getCustomer(int id);
+
+    String deleteTransactions(Transaction transaction);
+
+    String deleteCustomer(Customer customer);
 }

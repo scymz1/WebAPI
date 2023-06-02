@@ -52,4 +52,17 @@ public class WebAPIController {
     public ResponseEntity<UserRewardDTO> getRewards(@RequestParam int id) {
         return new ResponseEntity<>(webAPIService.getCustomerRewards(id), HttpStatus.OK);
     }
+
+    /**
+     * Delete one specific transactions.
+     */
+    @DeleteMapping("/transaction")
+    public ResponseEntity<String> deleteTransaction(@RequestBody Transaction transaction){
+        return new ResponseEntity<>(webAPIService.deleteTransactions(transaction), HttpStatus.OK);
+    }
+
+    @DeleteMapping("/customer")
+    public ResponseEntity<String> deleteCustomer(@RequestBody Customer customer){
+        return new ResponseEntity<>(webAPIService.deleteCustomer(customer), HttpStatus.OK);
+    }
 }
