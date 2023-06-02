@@ -3,9 +3,11 @@
 ## add customer:
 ### POST localhost:8080/webAPI/customer
 requestBody:
+
 {
-"firstName": "Minghao",
-"lastName": "Zhou"
+
+    "firstName": "Minghao",
+    "lastName": "Zhou"
 
 }
 
