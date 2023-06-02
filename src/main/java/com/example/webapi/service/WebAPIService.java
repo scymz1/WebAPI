@@ -9,6 +9,7 @@ public interface WebAPIService {
 
     int insertTransactions(Transaction transaction);
 
+
     UserRewardDTO getCustomerRewards(int customerId);
 
     Customer getCustomer(int id);
