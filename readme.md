@@ -87,7 +87,7 @@ Transaction table
 | 10 |2024-01-01|150|2|
 
 ## get rewards of Jimmy McGill by customer id:
-### GET [localhost:8080/webAPI/rewards?id=3]
+### GET [http://localhost:8080/webAPI/rewards?id=3](http://localhost:8080/webAPI/rewards?id=3)
 requestParam:
 
     "id": 3
