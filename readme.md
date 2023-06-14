@@ -1,6 +1,6 @@
-# api endpoint desgin
+# Spring Boot 3 REST API: WEB API desgin
 
-## add customer:
+## 1. add customer:
 ### POST localhost:8080/webAPI/customer
 requestBody:
 ```json
@@ -10,7 +10,7 @@ requestBody:
 }
 ```
 
-## add transactions:
+## 2. add transactions:
 ### POST localhost:8080/webAPI/transaction
 requestBody:
 ```json
@@ -25,19 +25,19 @@ requestBody:
 }
 ```
 
-## get rewards of customer by id:
+## 3. get rewards of customer by id:
 ### GET localhost:8080/webAPI/rewards?id=1
 requestParam:
 
     "id": 1
 
-## get info of specific user:
+## 4. get info of specific user:
 ### GET localhost:8080/webAPI/customer?id=1
 requestParam:
 
     "id": 1
 
-## delete specific transactions:
+## 5. delete specific transactions:
 ### DELETE localhost:8080/webAPI/transaction
 requestBody:
 ```json
@@ -52,7 +52,7 @@ requestBody:
 }
 ```
 
-## delete customer:
+## 6. delete customer:
 ### DELETE localhost:8080/webAPI/customer
 requestBody:
 ```json
