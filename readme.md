@@ -1,7 +1,7 @@
 # Spring Boot 3 REST API: WEB API desgin
 
 ## 1. add customer:
-### POST http://localhost:8080/webAPI/customer
+### POST [http://localhost:8080/webAPI/customer]
 requestBody:
 ```json
 {
