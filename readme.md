@@ -2,7 +2,7 @@
 
 ## 1. add customer: 
 ### POST http://localhost:8080/webAPI/customer 
-<span style="font-size: 10px;">[\[view source code\]](https://github.com/scymz1/WebAPI/blob/master/src/main/java/com/example/webapi/controller/WebAPIController.java#L26)</span>
+[\[view source code\]](https://github.com/scymz1/WebAPI/blob/master/src/main/java/com/example/webapi/controller/WebAPIController.java#L26)
 <br>requestBody:
 ```json
 {
@@ -13,7 +13,8 @@
 
 ## 2. add transactions:
 ### POST http://localhost:8080/webAPI/transaction
-requestBody:
+[\[view source code\]](https://github.com/scymz1/WebAPI/blob/master/src/main/java/com/example/webapi/controller/WebAPIController.java#L34)
+<br>requestBody:
 ```json
 {
     "customer": {
@@ -28,19 +29,22 @@ requestBody:
 
 ## 3. get rewards of customer by id:
 ### GET http://localhost:8080/webAPI/rewards?id=1
-requestParam:
+[\[view source code\]](https://github.com/scymz1/WebAPI/blob/master/src/main/java/com/example/webapi/controller/WebAPIController.java#L51)
+<br>requestParam:
 
     "id": 1
 
 ## 4. get info of specific user:
 ### GET http://localhost:8080/webAPI/customer?id=1
-requestParam:
+[\[view source code\]](https://github.com/scymz1/WebAPI/blob/master/src/main/java/com/example/webapi/controller/WebAPIController.java#L43)
+<br>requestParam:
 
     "id": 1
 
 ## 5. delete specific transactions:
 ### DELETE http://localhost:8080/webAPI/transaction
-requestBody:
+[\[view source code\]](https://github.com/scymz1/WebAPI/blob/master/src/main/java/com/example/webapi/controller/WebAPIController.java#L59)
+<br>requestBody:
 ```json
 {
     "customer": {
@@ -55,7 +59,8 @@ requestBody:
 
 ## 6. delete customer:
 ### DELETE http://localhost:8080/webAPI/customer
-requestBody:
+[\[view source code\]](https://github.com/scymz1/WebAPI/blob/master/src/main/java/com/example/webapi/controller/WebAPIController.java#L64)
+<br>requestBody:
 ```json
 {
     "firstName": "Minghao",
