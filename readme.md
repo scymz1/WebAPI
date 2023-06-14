@@ -2,7 +2,7 @@
 
 ## 1. add customer: 
 ### POST http://localhost:8080/webAPI/customer 
-[\[view source code\]](https://github.com/scymz1/WebAPI/blob/master/src/main/java/com/example/webapi/controller/WebAPIController.java#L26)
+[\[view source code\]](https://github.com/scymz1/WebAPI/blob/master/src/main/java/com/example/webapi/controller/WebAPIController.java#L26-L29)
 <br>requestBody:
 ```json
 {
@@ -13,7 +13,7 @@
 
 ## 2. add transactions:
 ### POST http://localhost:8080/webAPI/transaction
-[\[view source code\]](https://github.com/scymz1/WebAPI/blob/master/src/main/java/com/example/webapi/controller/WebAPIController.java#L34)
+[\[view source code\]](https://github.com/scymz1/WebAPI/blob/master/src/main/java/com/example/webapi/controller/WebAPIController.java#L34-L37)
 <br>requestBody:
 ```json
 {
@@ -29,21 +29,21 @@
 
 ## 3. get rewards of customer by id:
 ### GET http://localhost:8080/webAPI/rewards?id=1
-[\[view source code\]](https://github.com/scymz1/WebAPI/blob/master/src/main/java/com/example/webapi/controller/WebAPIController.java#L51)
+[\[view source code\]](https://github.com/scymz1/WebAPI/blob/master/src/main/java/com/example/webapi/controller/WebAPIController.java#L51-L54)
 <br>requestParam:
 
     "id": 1
 
 ## 4. get info of specific user:
 ### GET http://localhost:8080/webAPI/customer?id=1
-[\[view source code\]](https://github.com/scymz1/WebAPI/blob/master/src/main/java/com/example/webapi/controller/WebAPIController.java#L43)
+[\[view source code\]](https://github.com/scymz1/WebAPI/blob/master/src/main/java/com/example/webapi/controller/WebAPIController.java#L43-L46)
 <br>requestParam:
 
     "id": 1
 
 ## 5. delete specific transactions:
 ### DELETE http://localhost:8080/webAPI/transaction
-[\[view source code\]](https://github.com/scymz1/WebAPI/blob/master/src/main/java/com/example/webapi/controller/WebAPIController.java#L59)
+[\[view source code\]](https://github.com/scymz1/WebAPI/blob/master/src/main/java/com/example/webapi/controller/WebAPIController.java#L59-L62)
 <br>requestBody:
 ```json
 {
