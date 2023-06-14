@@ -1,7 +1,7 @@
 # Spring Boot 3 REST API: WEB API desgin
 
 ## 1. add customer:
-### POST localhost:8080/webAPI/customer
+### POST http://localhost:8080/webAPI/customer
 requestBody:
 ```json
 {
@@ -11,7 +11,7 @@ requestBody:
 ```
 
 ## 2. add transactions:
-### POST localhost:8080/webAPI/transaction
+### POST http://localhost:8080/webAPI/transaction
 requestBody:
 ```json
 {
@@ -26,19 +26,19 @@ requestBody:
 ```
 
 ## 3. get rewards of customer by id:
-### GET localhost:8080/webAPI/rewards?id=1
+### GET http://localhost:8080/webAPI/rewards?id=1
 requestParam:
 
     "id": 1
 
 ## 4. get info of specific user:
-### GET localhost:8080/webAPI/customer?id=1
+### GET http://localhost:8080/webAPI/customer?id=1
 requestParam:
 
     "id": 1
 
 ## 5. delete specific transactions:
-### DELETE localhost:8080/webAPI/transaction
+### DELETE http://localhost:8080/webAPI/transaction
 requestBody:
 ```json
 {
@@ -53,7 +53,7 @@ requestBody:
 ```
 
 ## 6. delete customer:
-### DELETE localhost:8080/webAPI/customer
+### DELETE http://localhost:8080/webAPI/customer
 requestBody:
 ```json
 {
